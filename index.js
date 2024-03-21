@@ -52,11 +52,11 @@ const playGame = (playerChoice) => {
   // }
 
   if (playerChoice === "papier" && pcChoice === "ciseaux") {
-    return "JOUEUR gagne";
+    return "PC gagne";
   }
 
   if (playerChoice === "papier" && pcChoice === "pierre") {
-    return "PC gagne";
+    return "JOUEUR gagne";
   }
 
   if (playerChoice === "ciseaux") {
